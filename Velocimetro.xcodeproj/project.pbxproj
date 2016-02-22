@@ -14,6 +14,7 @@
 		CDCD87871C7B5FAC00ACE132 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDCD87851C7B5FAC00ACE132 /* LaunchScreen.storyboard */; };
 		CDCD87921C7B5FAD00ACE132 /* VelocimetroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCD87911C7B5FAD00ACE132 /* VelocimetroTests.swift */; };
 		CDCD879D1C7B5FAD00ACE132 /* VelocimetroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCD879C1C7B5FAD00ACE132 /* VelocimetroUITests.swift */; };
+		CDCD87AB1C7B66E200ACE132 /* Velocimetro.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCD87AA1C7B66E200ACE132 /* Velocimetro.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		CDCD87981C7B5FAD00ACE132 /* VelocimetroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VelocimetroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDCD879C1C7B5FAD00ACE132 /* VelocimetroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VelocimetroUITests.swift; sourceTree = "<group>"; };
 		CDCD879E1C7B5FAD00ACE132 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDCD87AA1C7B66E200ACE132 /* Velocimetro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Velocimetro.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				CDCD877C1C7B5FAC00ACE132 /* AppDelegate.swift */,
 				CDCD877E1C7B5FAC00ACE132 /* ViewController.swift */,
+				CDCD87AA1C7B66E200ACE132 /* Velocimetro.swift */,
 				CDCD87801C7B5FAC00ACE132 /* Main.storyboard */,
 				CDCD87831C7B5FAC00ACE132 /* Assets.xcassets */,
 				CDCD87851C7B5FAC00ACE132 /* LaunchScreen.storyboard */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDCD877F1C7B5FAC00ACE132 /* ViewController.swift in Sources */,
+				CDCD87AB1C7B66E200ACE132 /* Velocimetro.swift in Sources */,
 				CDCD877D1C7B5FAC00ACE132 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -485,6 +489,7 @@
 				CDCD87A31C7B5FAD00ACE132 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CDCD87A41C7B5FAD00ACE132 /* Build configuration list for PBXNativeTarget "VelocimetroTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +498,7 @@
 				CDCD87A61C7B5FAD00ACE132 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CDCD87A71C7B5FAD00ACE132 /* Build configuration list for PBXNativeTarget "VelocimetroUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +507,7 @@
 				CDCD87A91C7B5FAD00ACE132 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
